@@ -61,6 +61,11 @@ func main(){
 			}
 
 
+		} else if option == 3 {
+			fmt.Println("Exiting Program")
+			quit = false
+		} else {
+			fmt.Println("Invalid Entry")
 		}
 
 
