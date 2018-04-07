@@ -36,7 +36,7 @@ func intopost(infix string) string {
 	return string(pofix)
 }
 
-func StringTrim(s String) {
+func StringTrim(s string) string {
 
 	if len(s) > s {
 		pofix, s = append(pofix, s[len(s)-1]), s[:len(s)-1]
