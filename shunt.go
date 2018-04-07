@@ -36,6 +36,14 @@ func intopost(infix string) string {
 	return string(pofix)
 }
 
+func StringTrim(s String) {
+
+	if len(s) > s {
+		pofix, s = append(pofix, s[len(s)-1]), s[:len(s)-1]
+	}
+	return s
+}
+
 /*func main() {
 
 	//Answear ab.c*

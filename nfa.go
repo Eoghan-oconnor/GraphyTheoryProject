@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 type state struct {
 	symbol rune
 	edge1  *state
@@ -124,7 +120,9 @@ func pomatch(po string, s string) bool {
 	return ismatch
 }
 
-func main() {
-	nfa := poregtonfa("ab.c*|", "ccc")
-	fmt.Println(nfa)
-}
+//	main() {
+// 	nfa := poregtonfa("ab.c*|", "ccc")
+// 	fmt.Println(nfa)
+// }
+
+//
