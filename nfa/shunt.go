@@ -1,4 +1,4 @@
-package main
+package nfa
 
 //This function is used to change infix notation to postfix notation
 func intopost(infix string) string {

@@ -1,4 +1,4 @@
-package main
+package nfa
 
 type state struct {
 	symbol rune
