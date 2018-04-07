@@ -1,7 +1,7 @@
 package nfa
 
 //This function is used to change infix notation to postfix notation
-func intopost(infix string) string {
+func Intopost(infix string) string {
 	specials := map[rune]int{'*': 10, '.': 9, '|': 8}
 	pofix := []rune{}
 	s := []rune{}
@@ -38,8 +38,8 @@ func intopost(infix string) string {
 
 func StringTrim(s string) string {
 
-	if len(s) > s {
-		pofix, s = append(pofix, s[len(s)-1]), s[:len(s)-1]
+	if len(s) > 0 {
+		s = s[:len(s) - 2]
 	}
 	return s
 }

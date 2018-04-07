@@ -11,7 +11,7 @@ type nfa struct {
 	accept  *state
 }
 
-func poregtonfa(pofix string) *nfa {
+func Poregtonfa(pofix string) *nfa {
 	nfaStack := []*nfa{}
 
 	for _, r := range pofix {
@@ -89,10 +89,10 @@ func addState(l []*state, s *state, a *state) []*state {
 	return l
 } //End addState function
 
-func pomatch(po string, s string) bool {
+func Pomatch(po string, s string) bool {
 	ismatch := false
 
-	ponfa := poregtonfa(po)
+	ponfa := Poregtonfa(po)
 
 	current := []*state{}
 	next := []*state{}
