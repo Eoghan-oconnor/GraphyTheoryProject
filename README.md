@@ -22,6 +22,11 @@ To clone the project run the following command in the command prompt
 git clone https://github.com/Eoghan-oconnor/GraphyTheoryProject
 ```
 
+To run the program navigate to the downloaded folder and run the following command 
+```
+go run nfaRunner.go
+```
+
 
 
 
